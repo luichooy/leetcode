@@ -20,3 +20,19 @@ const getGCD = (a, b) => {
 ```
 const group = str.match(/(\d)\1+|\d/g)
 ```
+
+#### lesson4 - 格雷编码
+
+- 求 x 的 y 次幂
+
+```
+Math.pow(x,y)
+```
+
+- 二进制转十进制
+
+```
+parseInt('0101',2) // 5
+```
+
+- 对称问题解法
