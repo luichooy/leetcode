@@ -1,7 +1,15 @@
-import combineTelNumber from '../../code/array/lesson1'
+import letterCombinations from '../../code/array/letterCombinations'
 
-test('combineTel(23)', () => {
-  expect(combineTelNumber('23')).toEqual([
+test('combineTel("")', () => {
+  expect(letterCombinations('')).toEqual([])
+})
+
+test('combineTel("2")', () => {
+  expect(letterCombinations('2')).toEqual(["a", "b", "c"])
+})
+
+test('combineTel("23")', () => {
+  expect(letterCombinations('23')).toEqual([
     'ad',
     'ae',
     'af',
@@ -14,8 +22,8 @@ test('combineTel(23)', () => {
   ])
 })
 
-test('combineTel(234)', () => {
-  expect(combineTelNumber('234')).toEqual([
+test('combineTel("234")', () => {
+  expect(letterCombinations('234')).toEqual([
     'adg',
     'adh',
     'adi',
