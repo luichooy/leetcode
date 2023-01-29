@@ -15,7 +15,7 @@ export default str => {
 
   if (!arr.length) {
     return arr
-  }
+  } 
 
 
   const combine = (source1, source2) => {
